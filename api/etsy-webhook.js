@@ -71,7 +71,7 @@ async function callclaudeAPI() {
                                                              if (parsed.content && parsed.content[0]) {
                                                                              resolve(parsed.content[0].text);
                                                              } else {
-                                                                             reject(new Error('Invalid API response structure'));
+   console.log('upstream response:', body)                                                                          reject(new Error('Invalid API response structure'));
                                                              }
                                                } catch (error) {
                                                              reject(new Error(`Failed to parse API response: ${error.message}`));
