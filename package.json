@@ -1,0 +1,17 @@
+{
+    "name": "etsy-webhook",
+    "version": "1.0.0",
+    "description": "Webhook handler for Etsy Daily Design Generator",
+    "main": "api/etsy-webhook.js",
+    "scripts": {
+          "dev": "vercel dev",
+          "build": "echo 'build'",
+          "start": "echo 'start'"
+    },
+    "dependencies": {
+          "@anthropic-ai/sdk": "^0.24.0"
+    },
+    "engines": {
+          "node": "18.x"
+    }
+}
